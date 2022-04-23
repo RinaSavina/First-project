@@ -267,28 +267,27 @@ margin: 0 auto;
     flex-basis: 711px;
     width: 90%;
     color: white;
-    border: 1px solid yellow;
   }
   .footer__column_content_coryright {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 228px;
-    border: 1px solid hsl(303, 98%, 82%);
   }
   .logo_place_footer {
     display: flex;
     top: 0;
     left: 0;
-    border: 1px solid rgb(0, 255, 247);
   }
   .footer__author {
     display: flex;
     bottom: 0;
     left: 0;
+    padding-bottom: 18px;
+    padding-top: 18px;
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
-    border: 1px solid rgb(3, 253, 103);
   }
   .footer__column_content_info {
     display: flex;
